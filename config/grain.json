@@ -1,4 +1,9 @@
 {
-  "allocationPolicies": [],
-  "maxSimultaneousDistributions": 100
+  "maxSimultaneousDistributions": 100,
+  "allocationPolicies": [
+    {
+      "policyType": "IMMEDIATE",
+      "budget": 100
+    }
+  ]
 }
