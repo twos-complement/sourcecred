@@ -3,6 +3,7 @@
   "allocationPolicies": [
     {
       "policyType": "IMMEDIATE",
+      "numIntervalsLookback": 1,
       "budget": 100
     }
   ]
