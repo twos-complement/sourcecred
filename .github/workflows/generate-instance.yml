@@ -19,7 +19,7 @@ jobs:
       - name: Cache Data # Cache SourceCred Data, invalidating if any of the config changes or the SC version is updated
         uses: actions/cache@v2.1.7
         with:
-          path: '**/cache'
+          path: "**/cache"
           key: SC-${{ runner.os }}-${{ hashFiles('**/config.json', '**/sourcecred.json', '**/yarn.lock') }}
 
       - name: Install Packages 🔧
@@ -40,8 +40,7 @@ jobs:
           cp -r ./{output,data,config,sourcecred.json,package.json,yarn.lock} ./site/
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.6
-
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
