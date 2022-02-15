@@ -175,3 +175,5 @@
 {"action":{"identityId":"Jd3fXoptBOHPrbV0d75G0w","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1643755848411,"uuid":"3l5cQiwPBA2qxUwFlV7RsQ","version":"1"}
 {"action":{"identityId":"Qk64zc0egKvLQHBou72SNA","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1643755851595,"uuid":"SAYlOx2WoiNgukeUvBC52Q","version":"1"}
 {"action":{"base":"mOgLT6ZZXjMx1eLCKn4kbw","target":"apZeVrGJ6rjNt5WqlotnYw","type":"MERGE_IDENTITIES"},"ledgerTimestamp":1643755857456,"uuid":"8mqVy1NKT1zDZVvOLznq1w","version":"1"}
+{"action":{"identityId":"zbEYSr73qOvQG2l6hWlRDw","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1644935860107,"uuid":"Qv4Yvc2KBfVYBPdDPbT3Dw","version":"1"}
+{"action":{"identityId":"yCOUqQ0L2kzq3NefYz9Y1g","type":"TOGGLE_ACTIVATION"},"ledgerTimestamp":1644935865175,"uuid":"PbBBzWsvtLOyqlpnpvXNiA","version":"1"}
